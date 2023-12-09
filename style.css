@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+body{
+    background-color: orange;
+} 
+header{
+    text-align: center;
+}
+
+.text-main{
+    text-align: center;
+    color: white;
+    font-size: 60px; 
+    /* размер */
+    margin-top: 70px;
+    /* отступ с верху */
+    margin-bottom: 40px;
+    /* отступ с низу */
+    font-family: "Roboto"
+}
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.box{
+    align-self: center;
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+}
+.box-mane{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 1100px;
+    flex-wrap: wrap;
+}
+.number{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    color:orange;
+}
+.text-box{
+    font-family: "Montserrat", sans-serif;
+    width: 80%;
+    text-align: center;
+}
+.text-box2{
+    font-size: 13px;
+}
+
+.line{
+    height: 2px;
+    width: 90px;
+    background-color: orange;
+    margin-top: -35px;
+}
+.header{
+    width: 100%;
+}
+.freepik{
+    color: white;
+    border-left: 10px;
+    border-left: brown;
+}
+.links{
+    color: rgb(94, 94, 199);
+}
+.qwer{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+.text-footer{
+    color: white;
+}
+.footer{
+    align-self: flex-end;
+    display: flex;
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+}
+
